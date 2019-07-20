@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "pug": "pug ./src/pug/templates --basedir ./src/pug/includes --out ./dist --watch --pretty",
-    "scss": "sass --watch src/scss/:dist/assets/css/",
+    "scss": "sass --watch src/scss/outputs/:dist/assets/css/ --load-path=src/scss/imports/",
     "start": "yarn pug & yarn scss"
   },
   "license": "MIT",

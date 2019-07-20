@@ -1,0 +1,19 @@
+@mixin screen($case) {
+  @if $case == 'sp' {
+      @media (max-width: $spBreakPoint) {
+          @content;
+      }
+  } @else {
+      @media (min-width: $spBreakPoint + 1px) {
+          @content;
+      }
+  }
+};
+
+@mixin clearfix {
+  &::after {
+      content: '';
+      display: block;
+      clear: both;
+  }
+};

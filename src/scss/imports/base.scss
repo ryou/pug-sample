@@ -1,0 +1,28 @@
+@import "init";
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: $mainFont;
+    color: $textColor;
+    line-height: $mainLineHeight;
+
+    -webkit-text-size-adjust: 100%;
+}
+
+a {
+    color: $linkColor;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+img {
+    max-width: 100%;
+    vertical-align: top;
+}

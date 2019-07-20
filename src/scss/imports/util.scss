@@ -1,0 +1,76 @@
+@import "init";
+
+// margin
+.u-mt5 {
+    margin-top: 5px;
+}
+.u-mt10 {
+    margin-top: 10px;
+}
+.u-mt15 {
+    margin-top: 15px;
+}
+.u-mt20 {
+    margin-top: 20px;
+}
+.u-mr5 {
+    margin-right: 5px;
+}
+.u-mr10 {
+    margin-right: 10px;
+}
+.u-mr15 {
+    margin-right: 15px;
+}
+.u-mr20 {
+    margin-right: 20px;
+}
+.u-mb5 {
+    margin-bottom: 5px;
+}
+.u-mb10 {
+    margin-bottom: 10px;
+}
+.u-mb15 {
+    margin-bottom: 15px;
+}
+.u-mb20 {
+    margin-bottom: 20px;
+}
+.u-ml5 {
+    margin-left: 5px;
+}
+.u-ml10 {
+    margin-left: 10px;
+}
+.u-ml15 {
+    margin-left: 15px;
+}
+.u-ml20 {
+    margin-left: 20px;
+}
+
+
+// show/hide
+.u-hideSp {
+    @include screen('sp') {
+        display: none;
+    }
+}
+.u-hidePc {
+    @include screen('pc') {
+        display: none;
+    }
+}
+
+
+// clearfix
+.u-clearfix {
+    @include clearfix;
+}
+
+
+// others
+.u-inlineBlock {
+    display: inline-block;
+}

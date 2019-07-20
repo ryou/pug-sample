@@ -66,3 +66,19 @@ mixin Section
 2019/07/20現在`plugin-pug`というプラグインがあるが、開発開始から１ヶ月も経過しておらずPrettierのPlugin機能自体ベータという事もあり仕事で使うのは割と危険。（`plugin-pug`の公式にもProductionUseには適さないって書いている）
 
 なので、潔く諦めてEditorConfigで妥協したほうが良さそう。
+
+### dart-sassでwatchする際のinput/outputの指定
+
+`dart-sass`で`watch`する際に
+
+```
+sass --watch ./src/scss/:./dist/assets/css/
+```
+
+ってな感じで`./`をつけてるとうまく監視できなかった
+
+```
+sass --watch src/scss/:dist/assets/css/
+```
+
+ってやったら出来た。理由不明。

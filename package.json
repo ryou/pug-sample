@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "pug ./src/pug/templates --basedir ./src/pug/includes --out ./dist --watch --pretty"
+    "pug": "pug ./src/pug/templates --basedir ./src/pug/includes --out ./dist --watch --pretty",
+    "scss": "sass --watch src/scss/:dist/assets/css/",
+    "start": "yarn pug & yarn scss"
   },
   "license": "MIT",
   "devDependencies": {
     "pug": "^2.0.4",
-    "pug-cli": "^1.0.0-alpha6"
+    "pug-cli": "^1.0.0-alpha6",
+    "sass": "^1.22.7"
   }
 }

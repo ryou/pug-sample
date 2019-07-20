@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "pug ./src/templates --basedir ./src/includes --out ./dist --watch --pretty"
+    "start": "pug ./src/pug/templates --basedir ./src/pug/includes --out ./dist --watch --pretty"
   },
   "license": "MIT",
   "devDependencies": {

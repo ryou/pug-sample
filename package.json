@@ -1,0 +1,13 @@
+{
+  "name": "pug-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "pug ./src/templates --basedir ./src/includes --out ./dist --watch --pretty"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "pug": "^2.0.4",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}

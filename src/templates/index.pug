@@ -1,0 +1,25 @@
+extends /layouts/default.pug
+include /init.pug
+
+block variables
+  -var title = "override title"
+
+block content
+  +Box(heading="見出し")
+    .ButtonGroup
+      .ButtonGroup_item
+        +Button
+          |ボタン
+      .ButtonGroup_item
+        +Button(type="submit")
+          |送信ボタン
+      .ButtonGroup_item
+        +Button(class="-blue -large")
+          |送信ボタン
+  +Modal
+    +ModalHeading モーダルタイトル
+    +ModalContent
+      p モーダル本文
+    +ModalButtonArea
+      +Button キャンセル
+      +Button(class="-primary") OK

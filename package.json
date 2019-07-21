@@ -16,7 +16,9 @@
     "pug": "^2.0.4",
     "pug-cli": "^1.0.0-alpha6",
     "sass": "^1.22.7",
-    "stylefmt": "^6.0.3"
+    "stylelint": "^10.1.0",
+    "stylelint-config-recommended-scss": "^3.3.0",
+    "stylelint-scss": "^3.9.2"
   },
   "husky": {
     "hooks": {
@@ -25,8 +27,7 @@
   },
   "lint-staged": {
     "*.{scss}": [
-      "stylefmt",
-      "git add"
+      "stylelint"
     ]
   }
 }

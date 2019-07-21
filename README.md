@@ -82,3 +82,7 @@ sass --watch src/scss/:dist/assets/css/
 ```
 
 ってやったら出来た。理由不明。
+
+### WebStormでstylelint
+
+`Preference > Language > StyleSheets > stylelint`で`Enable`のチェックをONにしたらstylelintのチェックが有効になる。

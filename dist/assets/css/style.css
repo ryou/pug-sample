@@ -530,6 +530,12 @@ img {
   opacity: 0.8;
 }
 
+.Content {
+  width: 980px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
 .u-mt5 {
   margin-top: 5px;
 }

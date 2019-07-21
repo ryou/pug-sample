@@ -1,6 +1,15 @@
 // colors
-$textColor: #2c3e50;
-$linkColor: #3498db;
+$greenColor: #1abc9c;
+$blueColor: #3498db;
+$blackColor: #2c3e50;
+$redColor: #e74c3c;
+$whiteColor: #ffffff;
+$grayColor: #bdc3c7;
+
+// colors(semantic)
+$textColor: $blackColor;
+$mainColor: $greenColor;
+$linkColor: $mainColor;
 
 // font
 $mainFont: -apple-system, BlinkMacSystemFont, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;

@@ -479,7 +479,7 @@ body {
 }
 
 a {
-  color: #3498db;
+  color: #1abc9c;
   text-decoration: none;
 }
 a:hover {
@@ -489,6 +489,45 @@ a:hover {
 img {
   max-width: 100%;
   vertical-align: top;
+}
+
+.Button {
+  display: inline-block;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #ffffff;
+  background-color: #1abc9c;
+  padding: 8px 15px;
+  min-width: 100px;
+  border-radius: 5px;
+}
+.Button.-green {
+  background-color: #1abc9c;
+}
+.Button.-blue {
+  background-color: #3498db;
+}
+.Button.-red {
+  background-color: #e74c3c;
+}
+.Button.-gray {
+  background-color: #bdc3c7;
+}
+.Button.-small {
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  min-width: 70px;
+}
+.Button.-large {
+  font-size: 1.6rem;
+  padding: 10px 20px;
+  min-width: 150px;
+}
+.Button:not(:disabled), .Button:not(.-disabled) {
+  cursor: pointer;
+}
+.Button:not(:disabled):hover, .Button:not(.-disabled):hover {
+  opacity: 0.8;
 }
 
 .u-mt5 {

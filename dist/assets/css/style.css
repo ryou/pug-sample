@@ -440,11 +440,18 @@ input, select {
   vertical-align: middle;
 }
 
-h1, h2, h3, h4, h5, h6, th {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th {
   font-weight: normal;
 }
 
-button, input[type=submit] {
+button,
+input[type=submit] {
   font-size: inherit;
   color: inherit;
   line-height: inherit;
@@ -454,7 +461,8 @@ button, input[type=submit] {
   -webkit-appearance: none;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 

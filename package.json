@@ -9,9 +9,22 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "husky": "^3.0.1",
+    "lint-staged": "^9.2.0",
     "pug": "^2.0.4",
     "pug-cli": "^1.0.0-alpha6",
     "sass": "^1.22.7",
     "stylefmt": "^6.0.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{scss}": [
+      "stylefmt",
+      "git add"
+    ]
   }
 }

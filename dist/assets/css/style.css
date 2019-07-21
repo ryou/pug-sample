@@ -549,6 +549,61 @@ img {
   margin: 0 auto;
 }
 
+.Modal {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2;
+}
+.Modal:not(.-visible) {
+  opacity: 0;
+}
+
+.Modal_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(44, 62, 80, 0.5);
+}
+
+.Modal_main {
+  position: relative;
+  background-color: #ffffff;
+  max-height: 600px;
+  width: 600px;
+  border-radius: 10px;
+}
+
+.Modal_heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #1abc9c;
+  padding: 10px 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.Modal_content {
+  padding: 20px;
+}
+
+.Modal_buttonArea {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #ecf0f1;
+  padding: 20px;
+}
+
 .u-mt5 {
   margin-top: 5px;
 }

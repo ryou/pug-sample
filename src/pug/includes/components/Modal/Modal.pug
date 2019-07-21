@@ -3,7 +3,7 @@ include ModalContent.pug
 include ModalButtonArea.pug
 
 mixin Modal
-  .Modal
+  .Modal(class!=attributes.class)
     .Modal_overlay
     .Modal_main
       block

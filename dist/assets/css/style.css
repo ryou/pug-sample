@@ -475,6 +475,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
   color: #2c3e50;
   line-height: 1.6;
+  background-color: #ecf0f1;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -489,6 +490,18 @@ a:hover {
 img {
   max-width: 100%;
   vertical-align: top;
+}
+
+.Box {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.Box_heading {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .Button {

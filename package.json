@@ -5,10 +5,12 @@
   "scripts": {
     "pug": "pug ./src/pug/templates --basedir ./src/pug/includes --out ./dist --watch --pretty",
     "scss": "sass --watch src/scss/outputs/:dist/assets/css/ --load-path=src/scss/imports/",
-    "start": "yarn pug & yarn scss"
+    "server": "browser-sync start --config 'browser-sync.js'",
+    "start": "yarn pug & yarn scss & yarn server"
   },
   "license": "MIT",
   "devDependencies": {
+    "browser-sync": "^2.26.7",
     "husky": "^3.0.1",
     "lint-staged": "^9.2.0",
     "pug": "^2.0.4",

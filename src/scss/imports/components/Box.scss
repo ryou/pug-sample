@@ -1,13 +1,13 @@
 .Box {
-  background-color: $whiteColor;
   padding: 20px;
+  background-color: $whiteColor;
   border-radius: 10px;
 }
 
 .Box_heading {
+  margin-bottom: 20px;
   font-size: 2.4rem;
   font-weight: bold;
-  margin-bottom: 20px;
 }
 
 .Box_content {

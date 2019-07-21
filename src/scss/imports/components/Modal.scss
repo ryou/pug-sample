@@ -1,10 +1,10 @@
 .Modal {
   position: fixed;
-  z-index: $zIndexModal;
   top: 0;
+  right: 0;
   bottom: 0;
   left: 0;
-  right: 0;
+  z-index: $zIndexModal;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,26 +19,26 @@
 .Modal_overlay {
   position: absolute;
   top: 0;
+  right: 0;
   bottom: 0;
   left: 0;
-  right: 0;
   background-color: rgba($blackColor, .5);
 }
 
 .Modal_main {
   position: relative;
-  background-color: $whiteColor;
-  max-height: 600px;
   width: 600px;
+  max-height: 600px;
+  background-color: $whiteColor;
   border-radius: 10px;
 }
 
 .Modal_heading {
+  padding: 10px 20px;
   font-size: 2.0rem;
   font-weight: bold;
   color: $whiteColor;
   background-color: $mainColor;
-  padding: 10px 20px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -50,6 +50,6 @@
 .Modal_buttonArea {
   display: flex;
   justify-content: space-around;
-  border-top: 1px solid $paleGrayColor;
   padding: 20px;
+  border-top: 1px solid $paleGrayColor;
 }

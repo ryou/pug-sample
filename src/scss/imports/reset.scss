@@ -15,11 +15,11 @@ th {
 // normalize/resetだとbuttonがリセットされていないのでリセット
 button,
 input[type=submit] {
-  font-size: inherit;
-  color: inherit;
-  line-height: inherit;
-  background-color: transparent;
   padding: 0;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  background-color: transparent;
   border: 0;
   -webkit-appearance: none;
 }

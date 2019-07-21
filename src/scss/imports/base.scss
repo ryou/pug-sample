@@ -3,10 +3,10 @@
 }
 
 body {
-  font-size: 1.6rem;
   font-family: $mainFont;
-  color: $textColor;
+  font-size: 1.6rem;
   line-height: $mainLineHeight;
+  color: $textColor;
   background-color: $backgroundColor;
   -webkit-text-size-adjust: 100%;
 }

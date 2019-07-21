@@ -1,11 +1,11 @@
 .Button {
   display: inline-block;
+  min-width: 100px;
+  padding: 8px 15px;
   font-size: 1.4rem;
   line-height: $mainLineHeight;
   color: $whiteColor;
   background-color: $mainColor;
-  padding: 8px 15px;
-  min-width: 100px;
   border-radius: 5px;
 
   // colors
@@ -27,15 +27,15 @@
 
   // size
   &.-small {
-    font-size: 1.2rem;
-    padding: 5px 10px;
     min-width: 70px;
+    padding: 5px 10px;
+    font-size: 1.2rem;
   }
 
   &.-large {
-    font-size: 1.6rem;
-    padding: 10px 20px;
     min-width: 150px;
+    padding: 10px 20px;
+    font-size: 1.6rem;
   }
 
   // disabled

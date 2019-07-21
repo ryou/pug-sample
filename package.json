@@ -17,6 +17,7 @@
     "pug-cli": "^1.0.0-alpha6",
     "sass": "^1.22.7",
     "stylelint": "^10.1.0",
+    "stylelint-config-recess-order": "^2.0.3",
     "stylelint-config-recommended-scss": "^3.3.0",
     "stylelint-scss": "^3.9.2"
   },

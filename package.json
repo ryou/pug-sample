@@ -11,6 +11,7 @@
   "devDependencies": {
     "pug": "^2.0.4",
     "pug-cli": "^1.0.0-alpha6",
-    "sass": "^1.22.7"
+    "sass": "^1.22.7",
+    "stylefmt": "^6.0.3"
   }
 }
